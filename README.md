@@ -33,12 +33,22 @@ cd catkin_ws/
 catkin_make</code></pre>
 
 <pre><code>gedit ~/.bashrc
+alias eb =‘gedit ~/.bashrc'
+alias sb ='source ~/.bashrc'
+alias cw ='cd ~/catkin_ws'
+alias cs ='cd ~/catkin_ws/src'
+alias cm ='cd ~/catkin_ws && catkin_make'
+source /opt/ros/kinetic/setup.bash
+source ~/catkin_ws/devel/setup.bash
+export ROS_MASTER_URI=http://localhost:11311
+export ROS_HOSTNAME=localhost
+</code></pre>
 
-source ~/catkin_ws/devel/setup.bash</code></pre>
-
-
-
-
+<pre><code>roscore
+rosrun turtlesim turtlesim_node
+rosrun turtlesim turtle_teleop_key
+rqt_graph 
+</code></pre>
 
 ## ROS Serial Communication
 
