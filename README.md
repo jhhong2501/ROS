@@ -15,22 +15,22 @@
 
 <code>sudo apt install ros-melodic-desktop-full</code>
 
-<code>sudo apt-get install python-pip
-sudo pip install -U rosdep</code>
+<pre><code>sudo apt-get install python-pip
+sudo pip install -U rosdep</code></pre>
 
-<code>echo "source /opt/ros/melodic/setup.bash" >> ~/.bashrc
-source ~/.bashrc</code>
+<pre><code>echo "source /opt/ros/melodic/setup.bash" >> ~/.bashrc
+source ~/.bashrc</code></pre>
 
 <code>sudo apt-get install python-rosinstall python-rosinstall-generator python-wstool build-essential</code>
 
 <code>sudo apt install python-rosdep</code>
 
-<code>sudo rosdep init
-rosdep update</code>
+<pre><code>sudo rosdep init
+rosdep update</code></pre>
 
-<code>mkdir -p catkin_ws/src
+<pre><code>mkdir -p catkin_ws/src
 cd catkin_ws/
-catkin_make</code>
+catkin_make</code></pre>
 
 
 ## ROS Serial Communication
