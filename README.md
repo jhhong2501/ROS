@@ -32,6 +32,13 @@ rosdep update</code></pre>
 cd catkin_ws/
 catkin_make</code></pre>
 
+<pre><code>gedit ~/.bashrc
+
+source ~/catkin_ws/devel/setup.bash</code></pre>
+
+
+
+
 
 ## ROS Serial Communication
 
