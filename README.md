@@ -1,10 +1,9 @@
 # ROS
 
-## Ubuntu 18.04.4 LTS (Bionic Beaver)
-Dual Boot
+## Ubuntu 18.04.4 LTS (Bionic Beaver) NVIDIA Install
 
-**Ubuntu** -> **"e" key** -> **end of "linux" add** <code>nouveau.modeset=0</code> -> **F10**
-
+**Dual Boot Ubuntu** -> **"e" key** -> **end of the line "linux" add** <code>nouveau.modeset=0</code> -> **F10**
+**Software & Update** -> **Additional Drivers** -> **using NVIDIA driver metapackage from nvidia-driver-440(open source)
 
 
 
