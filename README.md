@@ -24,7 +24,7 @@ source ~/.bashrc</code></pre>
 <code>sudo apt-get install python-rosinstall python-rosinstall-generator python-wstool build-essential</code>
 
 <code>sudo apt install python-rosdep</code>
-
+### rosdep update
 <pre><code>sudo rosdep init
 rosdep update</code></pre>
 ### catkin workspace
@@ -44,7 +44,7 @@ source ~/catkin_ws/devel/setup.bash
 export ROS_MASTER_URI=http://localhost:11311
 export ROS_HOSTNAME=localhost
 </code></pre>
-
+### Test
 <code>roscore</code>
 
 <code>rosrun turtlesim turtlesim_node</code>
