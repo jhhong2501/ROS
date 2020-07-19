@@ -46,8 +46,11 @@ export ROS_HOSTNAME=localhost
 </code></pre>
 
 <code>roscore</code>
+
 <code>rosrun turtlesim turtlesim_node</code>
+
 <code>rosrun turtlesim turtle_teleop_key</code>
+
 <code>rqt_graph </code>
 
 ## ROS Serial Communication
