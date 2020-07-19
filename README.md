@@ -1,6 +1,6 @@
 # ROS
 
-## Ubuntu 18.04.4 LTS (Bionic Beaver) NVIDIA Install
+## Ubuntu 18.04.4 LTS (Bionic Beaver) NVIDIA Install & Setting
 
 **Dual Boot Ubuntu** -> **"e" key** -> **end of the line "linux" add** <code>nouveau.modeset=0</code> -> **F10**
 **Software & Update** -> **Additional Drivers** -> **using NVIDIA driver metapackage from nvidia-driver-440(open source)**
@@ -33,6 +33,7 @@ cd catkin_ws/
 catkin_make</code></pre>
 
 <pre><code>gedit ~/.bashrc
+
 alias eb =‘gedit ~/.bashrc'
 alias sb ='source ~/.bashrc'
 alias cw ='cd ~/catkin_ws'
@@ -44,11 +45,10 @@ export ROS_MASTER_URI=http://localhost:11311
 export ROS_HOSTNAME=localhost
 </code></pre>
 
-<pre><code>roscore
-rosrun turtlesim turtlesim_node
-rosrun turtlesim turtle_teleop_key
-rqt_graph 
-</code></pre>
+<code>roscore</code>
+<code>rosrun turtlesim turtlesim_node</code>
+<code>rosrun turtlesim turtle_teleop_key</code>
+<code>rqt_graph </code>
 
 ## ROS Serial Communication
 
