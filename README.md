@@ -53,8 +53,18 @@ export ROS_HOSTNAME=localhost
 
 <code>rqt_graph </code>
 
-## ROS Serial Communication
+## ROS Git
+<pre><code>sudo apt-get install git
+sudo apt install git</code></pre>
 
+<code>git config -global user.name[NAME]</code>
+
+<code>git config -global user.mail [ADDRESS]</code>
+
+<code>git clone [URL]</code>
+
+
+## ROS Serial Communication
 <pre><code>sudo update
 sudo apt install minicom
 sudo minicom -s</code></pre>
