@@ -3,7 +3,8 @@
 ## Ubuntu 18.04.4 LTS (Bionic Beaver)
 Dual Boot
 
-Ubuntu -> "e" key -> end of "linux" add <pre><code>nouveau.modeset=0</code></pre>
+Ubuntu -> "e" key -> end of "linux" add <code>nouveau.modeset=0</code> -> F10
+
 
 
 
