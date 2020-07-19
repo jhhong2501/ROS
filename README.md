@@ -1,6 +1,6 @@
 # ROS
 
-## Ubuntu 18.04.4 LTS (Bionic Beaver) NVIDIA Install & Setting
+## Ubuntu 18.04.4 LTS & NVIDIA Install
 
 **Dual Boot Ubuntu** -> **"e" key** -> **end of the line "linux" add** <code>nouveau.modeset=0</code> -> **F10**
 
