@@ -18,8 +18,8 @@
 <code>sudo apt-get install python-pip
 sudo pip install -U rosdep</code>
 
-<code>echo "source /opt/ros/melodic/setup.bash" >> ~/.bashrc</code>
-source ~/.bashrc
+<code>echo "source /opt/ros/melodic/setup.bash" >> ~/.bashrc
+source ~/.bashrc</code>
 
 <code>sudo apt-get install python-rosinstall python-rosinstall-generator python-wstool build-essential</code>
 
