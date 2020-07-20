@@ -1,5 +1,7 @@
 # ROS
 
+<hr/>
+
 ## Ubuntu 18.04.4 LTS & NVIDIA Install
 
 **Dual Boot Ubuntu** -> **"e" key** -> **end of the line "linux" add** <code>nouveau.modeset=0</code> -> **F10**
@@ -8,23 +10,23 @@
 
 ## ROS Melodic Morenia Install
 
-> <code>sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'</code>
+<code>sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'</code>
 
-> <code>sudo apt-key adv --keyserver 'hkp://keyserver.ubuntu.com:80' --recv-key C1CF6E31E6BADE8868B172B4F42ED6FBAB17C654</code>
+<code>sudo apt-key adv --keyserver 'hkp://keyserver.ubuntu.com:80' --recv-key C1CF6E31E6BADE8868B172B4F42ED6FBAB17C654</code>
 
-> <code>sudo apt update</code>
+<code>sudo apt update</code>
 
-> <code>sudo apt install ros-melodic-desktop-full</code>
+<code>sudo apt install ros-melodic-desktop-full</code>
 
-> <pre><code>sudo apt-get install python-pip
+<pre><code>sudo apt-get install python-pip
 sudo pip install -U rosdep</code></pre>
 
-> <pre><code>echo "source /opt/ros/melodic/setup.bash" >> ~/.bashrc
+<pre><code>echo "source /opt/ros/melodic/setup.bash" >> ~/.bashrc
 source ~/.bashrc</code></pre>
 
-> <code>sudo apt-get install python-rosinstall python-rosinstall-generator python-wstool build-essential</code>
+<code>sudo apt-get install python-rosinstall python-rosinstall-generator python-wstool build-essential</code>
 
-> <code>sudo apt install python-rosdep</code>
+<code>sudo apt install python-rosdep</code>
 
 ### rosdep update
 <pre><code>sudo rosdep init
@@ -76,29 +78,6 @@ sudo apt install git</code></pre>
 sudo apt install minicom
 sudo minicom -s</code></pre>
 
-sudo apt-get install ros-melodic-joy 
-ros-melodic-teleop-twist-joy 
-ros-melodic-teleop-twist-keyboard 
-ros-melodic-laser-proc 
-ros-melodic-rgbd-launch 
-ros-melodic-depthimage-to-laserscan 
-ros-melodic-rosserial-arduino 
-ros-melodic-rosserial-python 
-ros-melodic-rosserial-server 
-ros-melodic-rosserial-client 
-ros-melodic-rosserial-msgs 
-ros-melodic-amcl 
-ros-melodic-map-server 
-ros-melodic-move-base 
-ros-melodic-urdf 
-ros-melodic-xacro 
-ros-melodic-compressed-image-transport 
-ros-melodic-rqt-image-view 
-ros-melodic-gmapping 
-ros-melodic-navigation 
-ros-melodic-interactive-markers
-
-<hr/>
 <hr/>
 
 # Reference
