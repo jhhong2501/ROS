@@ -54,6 +54,8 @@ export ROS_HOSTNAME=localhost
 
 <code>rqt_graph </code>
 
+<hr/>
+
 ## ROS Git
 <pre><code>sudo apt-get install git
 sudo apt install git</code></pre>
@@ -64,6 +66,7 @@ sudo apt install git</code></pre>
 
 <code>git clone [URL]</code>
 
+<hr/>
 
 ## ROS Serial Communication
 <pre><code>sudo update
