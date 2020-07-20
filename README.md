@@ -8,30 +8,33 @@
 
 ## ROS Melodic Morenia Install
 
-<code>sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'</code>
+> <code>sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'</code>
 
-<code>sudo apt-key adv --keyserver 'hkp://keyserver.ubuntu.com:80' --recv-key C1CF6E31E6BADE8868B172B4F42ED6FBAB17C654</code>
+> <code>sudo apt-key adv --keyserver 'hkp://keyserver.ubuntu.com:80' --recv-key C1CF6E31E6BADE8868B172B4F42ED6FBAB17C654</code>
 
-<code>sudo apt update</code>
+> <code>sudo apt update</code>
 
-<code>sudo apt install ros-melodic-desktop-full</code>
+> <code>sudo apt install ros-melodic-desktop-full</code>
 
-<pre><code>sudo apt-get install python-pip
+> <pre><code>sudo apt-get install python-pip
 sudo pip install -U rosdep</code></pre>
 
-<pre><code>echo "source /opt/ros/melodic/setup.bash" >> ~/.bashrc
+> <pre><code>echo "source /opt/ros/melodic/setup.bash" >> ~/.bashrc
 source ~/.bashrc</code></pre>
 
-<code>sudo apt-get install python-rosinstall python-rosinstall-generator python-wstool build-essential</code>
+> <code>sudo apt-get install python-rosinstall python-rosinstall-generator python-wstool build-essential</code>
 
-<code>sudo apt install python-rosdep</code>
+> <code>sudo apt install python-rosdep</code>
+
 ### rosdep update
 <pre><code>sudo rosdep init
 rosdep update</code></pre>
+
 ### catkin workspace
 <pre><code>mkdir -p catkin_ws/src
 cd catkin_ws/
 catkin_make</code></pre>
+
 ### bash alias 
 <pre><code>gedit ~/.bashrc
 
