@@ -85,7 +85,7 @@ http://wiki.ros.org/ROS
 
 
 
-<code>
+<pre><code>
 sudo apt-get install gcc
 sudo apt-get update
 sudo apt-get upgrade
@@ -107,4 +107,4 @@ sudo apt install cuda-10-0
 nvidia-smi
 nvcc -V​
 
-</code>
+</code></pre>
