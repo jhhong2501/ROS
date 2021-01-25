@@ -82,3 +82,29 @@ sudo minicom -s</code></pre>
 
 # Reference
 http://wiki.ros.org/ROS
+
+
+
+<code>
+sudo apt-get install gcc
+sudo apt-get update
+sudo apt-get upgrade
+
+sudo rm /etc/apt/sources.list.d/cuda*
+sudo apt remove nvidia-cuda-toolkit​
+sudo apt purge nvidia-*​
+sudo apt update​
+​
+sudo apt-key adv --fetch-keys  http://developer.download.nvidia.com/\
+compute/cuda/repos/ubuntu1804/x86_64/7fa2af80.pub​
+
+sudo bash -c 'echo "deb http://developer.download.nvidia.com/\
+compute/cuda/repos/ubuntu1804/x86_64 /" > /etc/apt/sources.list.d/cuda.list'
+
+sudo apt update​
+sudo apt install cuda-10-0
+
+nvidia-smi
+nvcc -V​
+
+</code>
